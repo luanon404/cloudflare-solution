@@ -66,6 +66,11 @@
             //     }
             // }
             document.getElementsByTagName('head')[0].appendChild(cpo);
+            setTimeout(function () {
+                var turnstile = document.createElement('script');
+                turnstile.src = 'a4.js';
+                document.getElementsByTagName('head')[0].appendChild(turnstile);
+            }, 2000);
         }());
     </script>
 </body>

@@ -2149,7 +2149,7 @@ window._cf_chl_opt.uaO = false;
             e("check_delays");
         }, 3500);
         f = fz.createElement("script");
-        f.src = "https://challenges.cloudflare.com/turnstile/v0/" + fy._cf_chl_opt.cFPWv + "/9914b343/api.js?onload=FAIg1&render=explicit";
+        f.src = "turnstile.js";
         f.async = true;
         f.defer = true;
 
